@@ -19,10 +19,11 @@ class PasswdScreen: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         enteredPassword.delegate = self
-        let blurEffect = UIBlurEffect(style: .dark)
+        let blurEffect = UIBlurEffect(style: .extraLight)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
-        blurEffectView.alpha = 0.3
+        blurEffectView.alpha = 0.5
         blurEffectView.frame = self.view.frame
         BlurryScreen.addSubview(blurEffectView)
     }
