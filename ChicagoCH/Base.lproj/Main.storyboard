@@ -633,6 +633,7 @@
         <image name="map" width="700" height="700"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="aDj-s8-C1y"/>
         <segue reference="mYA-O9-Rzi"/>
         <segue reference="dZO-T7-5Gf"/>
     </inferredMetricsTieBreakers>
