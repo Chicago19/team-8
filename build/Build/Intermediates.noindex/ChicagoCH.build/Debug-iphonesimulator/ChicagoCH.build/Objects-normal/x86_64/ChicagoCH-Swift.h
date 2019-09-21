@@ -198,19 +198,47 @@ SWIFT_CLASS("_TtC9ChicagoCH11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
-@class NSBundle;
+@class UIImageView;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC9ChicagoCH12GameNameCell")
+@interface GameNameCell : UICollectionViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imgGameName;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9ChicagoCH17GameTableViewCell")
+@interface GameTableViewCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIButton;
+@class UITableView;
+@class UICollectionView;
+@class NSBundle;
 
 SWIFT_CLASS("_TtC9ChicagoCH7KidsPag")
 @interface KidsPag : UIViewController
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified DropDownMenu;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified Categories;
+@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified GameIcons;
 - (void)viewDidLoad;
+- (IBAction)TableViewHiding:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableViewCell;
+
+@interface KidsPag (SWIFT_EXTENSION(ChicagoCH)) <UICollectionViewDataSource, UICollectionViewDelegate>
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
 
 @interface KidsPag (SWIFT_EXTENSION(ChicagoCH)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
