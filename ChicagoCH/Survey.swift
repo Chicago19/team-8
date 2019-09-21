@@ -11,14 +11,17 @@ import WebKit
 //override func viewDidLoad() {
 //super.viewDidLoad()
 class Survey: UIViewController, WKNavigationDelegate{
-var webView: WKWebView!
+//var webView: WKWebView!
   
+    @IBOutlet weak var webView: WKWebView!
+    @IBOutlet weak var SurveyView: UIView!
+    @IBOutlet weak var webViewHeightConstraint: NSLayoutConstraint!
     
 override func viewDidLoad(){
     super.viewDidLoad()
     let url = URL(string: "https://qualtrics.com")!
-    webView.load(URLRequest(url: url))
-    
+    let urlRequest = URLRequest(url: url)
+    webView.load(urlRequest)
 }
 
 
