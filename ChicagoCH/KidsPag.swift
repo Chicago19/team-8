@@ -33,14 +33,15 @@ class KidsPag: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         DropDownMenu.setTitle("Game Categories", for: .normal)
+        DropDownMenu.titleLabel?.font = UIFont(name: "AvenirNext-Demibold", size:50)
         DropDownMenu.layer.borderWidth = 1
         DropDownMenu.layer.borderColor = UIColor.black.cgColor
-        DropDownMenu.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
-        DropDownMenu.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
-        DropDownMenu.layer.shadowOpacity = 1.0
-        DropDownMenu.layer.shadowRadius = 2.0
-        DropDownMenu.layer.masksToBounds = false
-        DropDownMenu.layer.cornerRadius = 0.0
+//        DropDownMenu.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+//        DropDownMenu.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+//        DropDownMenu.layer.shadowOpacity = 1.0
+//        DropDownMenu.layer.shadowRadius = 2.0
+//        DropDownMenu.layer.masksToBounds = false
+//        DropDownMenu.layer.cornerRadius = 0.0
         Categories.isHidden = true
         
 
@@ -69,7 +70,9 @@ extension KidsPag: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "GameCatCell", for: indexPath) as! GameTableViewCell
             cell.textLabel?.text = games[indexPath.row]
-            return cell
+            cell.textLabel?.textAlignment = .center
+            cell.textLabel?.font = UIFont(name: "AvenirNext-Regular", size:40)
+             return cell
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
