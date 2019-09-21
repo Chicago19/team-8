@@ -14,6 +14,7 @@
 		4233075023359D5100B7EAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4233074E23359D5100B7EAAE /* LaunchScreen.storyboard */; };
 		4233075B23359D5100B7EAAE /* ChicagoCHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233075A23359D5100B7EAAE /* ChicagoCHTests.swift */; };
 		4233076623359D5100B7EAAE /* ChicagoCHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233076523359D5100B7EAAE /* ChicagoCHUITests.swift */; };
+		CAAEB35C2335C8E200EF8273 /* PasswdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAEB35B2335C8E200EF8273 /* PasswdScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4233076123359D5100B7EAAE /* ChicagoCHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChicagoCHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4233076523359D5100B7EAAE /* ChicagoCHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoCHUITests.swift; sourceTree = "<group>"; };
 		4233076723359D5100B7EAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAAEB35B2335C8E200EF8273 /* PasswdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswdScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				4233074523359D5000B7EAAE /* AppDelegate.swift */,
 				4233074723359D5000B7EAAE /* ViewController.swift */,
 				4233074923359D5000B7EAAE /* Main.storyboard */,
+				CAAEB35B2335C8E200EF8273 /* PasswdScreen.swift */,
 				4233074C23359D5100B7EAAE /* Assets.xcassets */,
 				4233074E23359D5100B7EAAE /* LaunchScreen.storyboard */,
 				4233075123359D5100B7EAAE /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4233074823359D5000B7EAAE /* ViewController.swift in Sources */,
+				CAAEB35C2335C8E200EF8273 /* PasswdScreen.swift in Sources */,
 				4233074623359D5000B7EAAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
