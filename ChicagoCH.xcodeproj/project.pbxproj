@@ -14,6 +14,8 @@
 		4233075023359D5100B7EAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4233074E23359D5100B7EAAE /* LaunchScreen.storyboard */; };
 		4233075B23359D5100B7EAAE /* ChicagoCHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233075A23359D5100B7EAAE /* ChicagoCHTests.swift */; };
 		4233076623359D5100B7EAAE /* ChicagoCHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233076523359D5100B7EAAE /* ChicagoCHUITests.swift */; };
+		D44C4D452335BB5A00EB5F7E /* ParentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C4D442335BB5A00EB5F7E /* ParentPage.swift */; };
+		D44C4D472335D57100EB5F7E /* MedicalInformationSpanish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D44C4D462335D57100EB5F7E /* MedicalInformationSpanish.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4233076123359D5100B7EAAE /* ChicagoCHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChicagoCHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4233076523359D5100B7EAAE /* ChicagoCHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoCHUITests.swift; sourceTree = "<group>"; };
 		4233076723359D5100B7EAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44C4D442335BB5A00EB5F7E /* ParentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentPage.swift; sourceTree = "<group>"; };
+		D44C4D462335D57100EB5F7E /* MedicalInformationSpanish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MedicalInformationSpanish.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		4233074423359D5000B7EAAE /* ChicagoCH */ = {
 			isa = PBXGroup;
 			children = (
+				D44C4D462335D57100EB5F7E /* MedicalInformationSpanish.pdf */,
 				4233074523359D5000B7EAAE /* AppDelegate.swift */,
 				4233074723359D5000B7EAAE /* ViewController.swift */,
 				4233074923359D5000B7EAAE /* Main.storyboard */,
 				4233074C23359D5100B7EAAE /* Assets.xcassets */,
 				4233074E23359D5100B7EAAE /* LaunchScreen.storyboard */,
 				4233075123359D5100B7EAAE /* Info.plist */,
+				D44C4D442335BB5A00EB5F7E /* ParentPage.swift */,
 			);
 			path = ChicagoCH;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44C4D472335D57100EB5F7E /* MedicalInformationSpanish.pdf in Resources */,
 				4233075023359D5100B7EAAE /* LaunchScreen.storyboard in Resources */,
 				4233074D23359D5100B7EAAE /* Assets.xcassets in Resources */,
 				4233074B23359D5000B7EAAE /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44C4D452335BB5A00EB5F7E /* ParentPage.swift in Sources */,
 				4233074823359D5000B7EAAE /* ViewController.swift in Sources */,
 				4233074623359D5000B7EAAE /* AppDelegate.swift in Sources */,
 			);
