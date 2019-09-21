@@ -8,9 +8,10 @@
 import UIKit
 import WebKit
 import PDFKit
+import MessageUI
 
 
-class Resources:  UIViewController{
+class Resources:  UIViewController, MFMailComposeViewControllerDelegate{
     @IBOutlet weak var PdfPopUP: UIView!
     @IBOutlet weak var ResourceNav: UIButton!
     @IBOutlet weak var ResourceTable: UITableView!
@@ -23,7 +24,7 @@ class Resources:  UIViewController{
         
         ResourceNav.setTitle("Resources", for: .normal)
         ResourceNav.titleLabel?.textColor = UIColor.darkGray
-        ResourceNav.titleLabel?.font = UIFont(name: "AvenirNext-Demibold", size:40)
+        ResourceNav.titleLabel?.font = UIFont(name: "AvenirNext-Demibold", size:20)
         ResourceNav.layer.borderWidth = 1
         ResourceNav.layer.borderColor = UIColor.darkGray.cgColor
         
@@ -48,6 +49,30 @@ class Resources:  UIViewController{
 
     }
     
+
+    
+    @IBAction func ResourcePressed(_ sender: Any) {
+        ResourceTable.isHidden = false
+    }
+    
+    @IBAction func EmailPDFTOSelf(_ sender: Any) {
+
+        let alert = UIAlertController(title: "Success", message: " You have sucessfully emailed it to yourself", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+            switch action.style{
+            case .default:
+                print("default")
+
+            case .cancel:
+                print("cancel")
+
+            case .destructive:
+                print("destructive")
+
+
+            }}))
+        self.present(alert, animated: true, completion: nil)
+    }
     
 }
 
@@ -71,7 +96,7 @@ extension Resources: UITableViewDataSource, UITableViewDelegate{
         let cell = tableView.dequeueReusableCell(withIdentifier: "ResourcesCell", for: indexPath) as! UITableViewCell
         cell.textLabel?.text = pdfs[indexPath.row]
         cell.textLabel?.textAlignment = .center
-        cell.textLabel?.font = UIFont(name: "AvenirNext-Regular", size:30)
+        cell.textLabel?.font = UIFont(name: "AvenirNext-Regular", size:20)
         cell.textLabel?.textColor = UIColor.darkGray
         return cell
     }
@@ -86,9 +111,9 @@ extension Resources: UITableViewDataSource, UITableViewDelegate{
             let urlRequest = URLRequest(url: url)
             webView.load(urlRequest)
             PdfPopUP.addSubview(webView)
-        }
+
         ResourceTable.reloadData()
         
     }
 }
-
+}
