@@ -37,7 +37,7 @@ class PasswdScreen: UIViewController, UITextFieldDelegate {
             textField.resignFirstResponder()
             print("Success")
             //self.view.endEditing(true)
-
+          performSegue(withIdentifier: "PasswordToAdult", sender: self)
             // Passwords do not match. Display alert message and return
             return true
         } else {

@@ -15,6 +15,8 @@
 		4233075B23359D5100B7EAAE /* ChicagoCHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233075A23359D5100B7EAAE /* ChicagoCHTests.swift */; };
 		4233076623359D5100B7EAAE /* ChicagoCHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233076523359D5100B7EAAE /* ChicagoCHUITests.swift */; };
 		CAAEB35C2335C8E200EF8273 /* PasswdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAEB35B2335C8E200EF8273 /* PasswdScreen.swift */; };
+		CAAEB3622335F3B400EF8273 /* AdultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAEB3612335F3B400EF8273 /* AdultPage.swift */; };
+		CAAEB3642335F3C300EF8273 /* MedicalInformationSpanish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CAAEB3632335F3C300EF8273 /* MedicalInformationSpanish.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4233076523359D5100B7EAAE /* ChicagoCHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoCHUITests.swift; sourceTree = "<group>"; };
 		4233076723359D5100B7EAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAAEB35B2335C8E200EF8273 /* PasswdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswdScreen.swift; sourceTree = "<group>"; };
+		CAAEB3612335F3B400EF8273 /* AdultPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdultPage.swift; sourceTree = "<group>"; };
+		CAAEB3632335F3C300EF8273 /* MedicalInformationSpanish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = MedicalInformationSpanish.pdf; path = ../../../MedicalInformationSpanish.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		4233074423359D5000B7EAAE /* ChicagoCH */ = {
 			isa = PBXGroup;
 			children = (
+				CAAEB3632335F3C300EF8273 /* MedicalInformationSpanish.pdf */,
 				4233074523359D5000B7EAAE /* AppDelegate.swift */,
 				4233074723359D5000B7EAAE /* ViewController.swift */,
 				4233074923359D5000B7EAAE /* Main.storyboard */,
@@ -106,6 +111,7 @@
 				4233074C23359D5100B7EAAE /* Assets.xcassets */,
 				4233074E23359D5100B7EAAE /* LaunchScreen.storyboard */,
 				4233075123359D5100B7EAAE /* Info.plist */,
+				CAAEB3612335F3B400EF8273 /* AdultPage.swift */,
 			);
 			path = ChicagoCH;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAAEB3642335F3C300EF8273 /* MedicalInformationSpanish.pdf in Resources */,
 				4233075023359D5100B7EAAE /* LaunchScreen.storyboard in Resources */,
 				4233074D23359D5100B7EAAE /* Assets.xcassets in Resources */,
 				4233074B23359D5000B7EAAE /* Main.storyboard in Resources */,
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4233074823359D5000B7EAAE /* ViewController.swift in Sources */,
+				CAAEB3622335F3B400EF8273 /* AdultPage.swift in Sources */,
 				CAAEB35C2335C8E200EF8273 /* PasswdScreen.swift in Sources */,
 				4233074623359D5000B7EAAE /* AppDelegate.swift in Sources */,
 			);

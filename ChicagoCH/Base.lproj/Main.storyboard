@@ -44,6 +44,7 @@
                         <outlet property="BlurryScreen" destination="eJ8-tF-z0c" id="b17-dS-elw"/>
                         <outlet property="enteredPassword" destination="r7m-GX-41e" id="hmW-KE-aGG"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="backFromPass" id="h7y-Dj-CSo"/>
+                        <segue destination="nxh-c7-adM" kind="show" identifier="PasswordToAdult" id="j2O-Mn-vNm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkz-jw-Ei7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -54,6 +55,58 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="222.65625" y="-446.48437499999994"/>
+        </scene>
+        <!--AdultPage-->
+        <scene sceneID="Pqy-xn-beM">
+            <objects>
+                <viewController title="AdultPage" id="nxh-c7-adM" customClass="AdultPage" customModule="ChicagoCH" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fEI-cP-0S6">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqp-Nz-XFd">
+                                <rect key="frame" x="239" y="123" width="290" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Resources"/>
+                                <connections>
+                                    <action selector="OpenUp:" destination="D2g-bD-pjn" eventType="touchUpInside" id="327-ev-vh7"/>
+                                    <action selector="OpenUp:" destination="nxh-c7-adM" eventType="touchUpInside" id="8dZ-0K-Myi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLj-ay-w2d">
+                                <rect key="frame" x="239" y="340" width="290" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Check-In"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJn-KJ-bdp">
+                                <rect key="frame" x="239" y="789" width="290" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Survey"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaN-Zy-4dN">
+                                <rect key="frame" x="239" y="566" width="290" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Make an Appointment"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nnY-y6-iUW"/>
+                    </view>
+                    <connections>
+                        <outlet property="AptmntButton" destination="aaN-Zy-4dN" id="njy-qR-mNv"/>
+                        <outlet property="CheckInButton" destination="gLj-ay-w2d" id="PlI-Tc-TxC"/>
+                        <outlet property="ResourcesButton" destination="eqp-Nz-XFd" id="dqa-M7-yJY"/>
+                        <outlet property="SurveyButton" destination="LJn-KJ-bdp" id="5uI-wx-8qK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="act-Sb-1M5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="D2g-bD-pjn" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="918.75" y="-446.48437499999994"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
