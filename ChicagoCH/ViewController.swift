@@ -15,19 +15,21 @@ class ViewController: UIViewController {
     @IBOutlet weak var parentButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        parentButton.backgroundColor = .clear
         parentButton.layer.cornerRadius = 75
-        parentButton.layer.borderWidth = 1
-        parentButton.layer.borderColor = UIColor.black.cgColor
+        //parentButton.layer.borderWidth = 1
+        //parentButton.layer.borderColor = UIColor.white.cgColor
+        parentButton.titleLabel?.font = UIFont(name: "AvenirNext-Regular", size:40
+        )
         
-        kidsButton.backgroundColor = .clear
         kidsButton.layer.cornerRadius = 75
-        kidsButton.layer.borderWidth = 1
-        kidsButton.layer.borderColor = UIColor.black.cgColor
+        //kidsButton.layer.borderWidth = 1
+        //kidsButton.layer.borderColor = UIColor.white.cgColor
+        kidsButton.titleLabel?.font = UIFont(name: "AvenirNext-Regular", size:40)
         
-        parentButton.titleLabel!.font = UIFont(name: "Times New Roman", size: 25)
         
-        kidsButton.titleLabel!.font = UIFont(name: "Times New Roman", size: 25)
+        //parentButton.titleLabel!.font = UIFont(name: "Times New Roman", size: 25)
+        
+        //kidsButton.titleLabel!.font = UIFont(name: "Times New Roman", size: 25)
         
         //passLock.isHidden = true
         

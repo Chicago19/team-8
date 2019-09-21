@@ -14,9 +14,21 @@
 		4233075023359D5100B7EAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4233074E23359D5100B7EAAE /* LaunchScreen.storyboard */; };
 		4233075B23359D5100B7EAAE /* ChicagoCHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233075A23359D5100B7EAAE /* ChicagoCHTests.swift */; };
 		4233076623359D5100B7EAAE /* ChicagoCHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233076523359D5100B7EAAE /* ChicagoCHUITests.swift */; };
+		CA68C0E923360BCB00FCBA77 /* KidsPag.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68C0E823360BCB00FCBA77 /* KidsPag.swift */; };
+		CA68C0EB23360D0900FCBA77 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68C0EA23360D0900FCBA77 /* GameTableViewCell.swift */; };
+		CA68C0ED23360D7A00FCBA77 /* GameNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68C0EC23360D7A00FCBA77 /* GameNameCell.swift */; };
+		CA68C0EF2336273D00FCBA77 /* CheckInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68C0EE2336273D00FCBA77 /* CheckInPage.swift */; };
+		CA68C0F123363DE900FCBA77 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68C0F023363DE900FCBA77 /* Resources.swift */; };
+		CA68C0F32336496F00FCBA77 /* MedicalInformationSpanish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CA68C0F22336496F00FCBA77 /* MedicalInformationSpanish.pdf */; };
+		CA68C0F923364E8E00FCBA77 /* Information for Grandparents Spanish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CA68C0F423364E8E00FCBA77 /* Information for Grandparents Spanish.pdf */; };
+		CA68C0FA23364E8E00FCBA77 /* Advocacy Parent Folder.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CA68C0F523364E8E00FCBA77 /* Advocacy Parent Folder.pdf */; };
+		CA68C0FB23364E8E00FCBA77 /* Coloring-Book.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CA68C0F623364E8E00FCBA77 /* Coloring-Book.pdf */; };
+		CA68C0FC23364E8E00FCBA77 /* Cyber Bullying.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CA68C0F723364E8E00FCBA77 /* Cyber Bullying.pdf */; };
+		CA68C0FD23364E8E00FCBA77 /* Free Chicago Events.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CA68C0F823364E8E00FCBA77 /* Free Chicago Events.pdf */; };
+		CA68C0FF23364E9A00FCBA77 /* Parent Handbook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CA68C0FE23364E9A00FCBA77 /* Parent Handbook.pdf */; };
+		CA68C10123366A2E00FCBA77 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68C10023366A2E00FCBA77 /* Survey.swift */; };
 		CAAEB35C2335C8E200EF8273 /* PasswdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAEB35B2335C8E200EF8273 /* PasswdScreen.swift */; };
 		CAAEB3622335F3B400EF8273 /* AdultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAEB3612335F3B400EF8273 /* AdultPage.swift */; };
-		CAAEB3642335F3C300EF8273 /* MedicalInformationSpanish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CAAEB3632335F3C300EF8273 /* MedicalInformationSpanish.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +62,21 @@
 		4233076123359D5100B7EAAE /* ChicagoCHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChicagoCHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4233076523359D5100B7EAAE /* ChicagoCHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoCHUITests.swift; sourceTree = "<group>"; };
 		4233076723359D5100B7EAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA68C0E823360BCB00FCBA77 /* KidsPag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsPag.swift; sourceTree = "<group>"; };
+		CA68C0EA23360D0900FCBA77 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		CA68C0EC23360D7A00FCBA77 /* GameNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameNameCell.swift; sourceTree = "<group>"; };
+		CA68C0EE2336273D00FCBA77 /* CheckInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInPage.swift; sourceTree = "<group>"; };
+		CA68C0F023363DE900FCBA77 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		CA68C0F22336496F00FCBA77 /* MedicalInformationSpanish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = MedicalInformationSpanish.pdf; path = ../../MedicalInformationSpanish.pdf; sourceTree = "<group>"; };
+		CA68C0F423364E8E00FCBA77 /* Information for Grandparents Spanish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Information for Grandparents Spanish.pdf"; path = "../../../Downloads/FFG Source Materials-2/Information for Grandparents Spanish.pdf"; sourceTree = "<group>"; };
+		CA68C0F523364E8E00FCBA77 /* Advocacy Parent Folder.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Advocacy Parent Folder.pdf"; path = "../../../Downloads/FFG Source Materials-2/Advocacy Parent Folder.pdf"; sourceTree = "<group>"; };
+		CA68C0F623364E8E00FCBA77 /* Coloring-Book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Coloring-Book.pdf"; path = "../../../Downloads/FFG Source Materials-2/Coloring-Book.pdf"; sourceTree = "<group>"; };
+		CA68C0F723364E8E00FCBA77 /* Cyber Bullying.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Cyber Bullying.pdf"; path = "../../../Downloads/FFG Source Materials-2/Cyber Bullying.pdf"; sourceTree = "<group>"; };
+		CA68C0F823364E8E00FCBA77 /* Free Chicago Events.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Free Chicago Events.pdf"; path = "../../../Downloads/FFG Source Materials-2/Free Chicago Events.pdf"; sourceTree = "<group>"; };
+		CA68C0FE23364E9A00FCBA77 /* Parent Handbook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Parent Handbook.pdf"; path = "../../../Downloads/FFG Source Materials-2/Parent Handbook.pdf"; sourceTree = "<group>"; };
+		CA68C10023366A2E00FCBA77 /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
 		CAAEB35B2335C8E200EF8273 /* PasswdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswdScreen.swift; sourceTree = "<group>"; };
 		CAAEB3612335F3B400EF8273 /* AdultPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdultPage.swift; sourceTree = "<group>"; };
-		CAAEB3632335F3C300EF8273 /* MedicalInformationSpanish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = MedicalInformationSpanish.pdf; path = ../../../MedicalInformationSpanish.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +127,22 @@
 		4233074423359D5000B7EAAE /* ChicagoCH */ = {
 			isa = PBXGroup;
 			children = (
-				CAAEB3632335F3C300EF8273 /* MedicalInformationSpanish.pdf */,
 				4233074523359D5000B7EAAE /* AppDelegate.swift */,
 				4233074723359D5000B7EAAE /* ViewController.swift */,
+				CA68C0E823360BCB00FCBA77 /* KidsPag.swift */,
+				CA68C0F523364E8E00FCBA77 /* Advocacy Parent Folder.pdf */,
+				CA68C0F623364E8E00FCBA77 /* Coloring-Book.pdf */,
+				CA68C0F723364E8E00FCBA77 /* Cyber Bullying.pdf */,
+				CA68C0FE23364E9A00FCBA77 /* Parent Handbook.pdf */,
+				CA68C0F823364E8E00FCBA77 /* Free Chicago Events.pdf */,
+				CA68C0F423364E8E00FCBA77 /* Information for Grandparents Spanish.pdf */,
+				CA68C0F22336496F00FCBA77 /* MedicalInformationSpanish.pdf */,
 				4233074923359D5000B7EAAE /* Main.storyboard */,
+				CA68C10023366A2E00FCBA77 /* Survey.swift */,
+				CA68C0F023363DE900FCBA77 /* Resources.swift */,
+				CA68C0EE2336273D00FCBA77 /* CheckInPage.swift */,
+				CA68C0EC23360D7A00FCBA77 /* GameNameCell.swift */,
+				CA68C0EA23360D0900FCBA77 /* GameTableViewCell.swift */,
 				CAAEB35B2335C8E200EF8273 /* PasswdScreen.swift */,
 				4233074C23359D5100B7EAAE /* Assets.xcassets */,
 				4233074E23359D5100B7EAAE /* LaunchScreen.storyboard */,
@@ -238,9 +274,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAAEB3642335F3C300EF8273 /* MedicalInformationSpanish.pdf in Resources */,
+				CA68C0FA23364E8E00FCBA77 /* Advocacy Parent Folder.pdf in Resources */,
+				CA68C0F923364E8E00FCBA77 /* Information for Grandparents Spanish.pdf in Resources */,
+				CA68C0F32336496F00FCBA77 /* MedicalInformationSpanish.pdf in Resources */,
+				CA68C0FB23364E8E00FCBA77 /* Coloring-Book.pdf in Resources */,
 				4233075023359D5100B7EAAE /* LaunchScreen.storyboard in Resources */,
+				CA68C0FC23364E8E00FCBA77 /* Cyber Bullying.pdf in Resources */,
 				4233074D23359D5100B7EAAE /* Assets.xcassets in Resources */,
+				CA68C0FF23364E9A00FCBA77 /* Parent Handbook.pdf in Resources */,
+				CA68C0FD23364E8E00FCBA77 /* Free Chicago Events.pdf in Resources */,
 				4233074B23359D5000B7EAAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +309,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4233074823359D5000B7EAAE /* ViewController.swift in Sources */,
+				CA68C0ED23360D7A00FCBA77 /* GameNameCell.swift in Sources */,
+				CA68C0E923360BCB00FCBA77 /* KidsPag.swift in Sources */,
 				CAAEB3622335F3B400EF8273 /* AdultPage.swift in Sources */,
 				CAAEB35C2335C8E200EF8273 /* PasswdScreen.swift in Sources */,
 				4233074623359D5000B7EAAE /* AppDelegate.swift in Sources */,
+				CA68C0F123363DE900FCBA77 /* Resources.swift in Sources */,
+				CA68C10123366A2E00FCBA77 /* Survey.swift in Sources */,
+				CA68C0EF2336273D00FCBA77 /* CheckInPage.swift in Sources */,
+				CA68C0EB23360D0900FCBA77 /* GameTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

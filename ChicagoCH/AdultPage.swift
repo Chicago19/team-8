@@ -21,25 +21,34 @@ class AdultPage: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ResourcesButton.backgroundColor = .clear
+        ResourcesButton.backgroundColor = UIColor.clear
+        ResourcesButton.titleLabel?.textColor = UIColor.black
         ResourcesButton.layer.cornerRadius = 55
-        ResourcesButton.layer.borderWidth = 1
-        ResourcesButton.layer.borderColor = UIColor.black.cgColor
+        ResourcesButton.layer.borderWidth = 5
+        ResourcesButton.titleLabel?.font = UIFont(name: "AvenirNext-Regular", size:25)
+        ResourcesButton.layer.borderColor = UIColor(red:164/255, green:195/255, blue:127/255, alpha: 1).cgColor
         
-        SurveyButton.backgroundColor = .clear
+        SurveyButton.backgroundColor = UIColor.clear
+        SurveyButton.titleLabel?.textColor = UIColor.black
         SurveyButton.layer.cornerRadius = 55
-        SurveyButton.layer.borderWidth = 1
-        SurveyButton.layer.borderColor = UIColor.black.cgColor
+        SurveyButton.layer.borderWidth = 5
+        SurveyButton.titleLabel?.font = UIFont(name: "AvenirNext-Regular", size:25)
+        SurveyButton.layer.borderColor = UIColor(red:139/255, green:78/255, blue:163/255, alpha: 1).cgColor
         
-        AptmntButton.backgroundColor = .clear
+        AptmntButton.backgroundColor = UIColor.clear
+        AptmntButton.titleLabel?.textColor = UIColor.black
         AptmntButton.layer.cornerRadius = 55
-        AptmntButton.layer.borderWidth = 1
-        AptmntButton.layer.borderColor = UIColor.black.cgColor
+        AptmntButton.layer.borderWidth = 5
+        AptmntButton.titleLabel?.font = UIFont(name: "AvenirNext-Regular", size:25)
+        AptmntButton.layer.borderColor = UIColor(red:139/255, green:78/255, blue:163/255, alpha: 1).cgColor
         
-        CheckInButton.backgroundColor = .clear
+        CheckInButton.backgroundColor = UIColor.clear
+        CheckInButton.titleLabel?.textColor = UIColor.black
         CheckInButton.layer.cornerRadius = 55
-        CheckInButton.layer.borderWidth = 1
-        CheckInButton.layer.borderColor = UIColor.black.cgColor
+        CheckInButton.layer.borderWidth = 5
+        CheckInButton.titleLabel?.font = UIFont(name: "AvenirNext-Regular", size:25)
+        CheckInButton.layer.borderColor = UIColor(red:164/255, green:195/255, blue:127/255, alpha: 1).cgColor
+        
 
     }
     
@@ -55,5 +64,22 @@ class AdultPage: UIViewController {
         }
     }
     
-  
+    @IBAction func FindingLocations(_ sender: Any) {
+        let alert = UIAlertController(title: "Map Opened", message: "This feature shows all potential locations of the hospital near you", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+            switch action.style{
+            case .default:
+                print("default")
+                
+            case .cancel:
+                print("cancel")
+                
+            case .destructive:
+                print("destructive")
+                
+                
+            }}))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
 }
